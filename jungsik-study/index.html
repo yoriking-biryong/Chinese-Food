@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#a83d29">
+  <meta name="description" content="중식조리기능사 실기 20품목. 두 메뉴의 재료 분류, 조리 순서, 오답과 메모를 한곳에서 연습하세요.">
+  <title>중식 연습장 · 중식조리기능사</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23a83d29'/%3E%3Ctext x='32' y='45' font-size='43' text-anchor='middle' fill='white'%3E中%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header class="header"><div class="header-inner">
+    <a href="#practice" class="brand" aria-label="중식 연습장 홈"><span class="seal" aria-hidden="true">中</span><span>중식 연습장<small>조리기능사 실기 노트</small></span></a>
+    <nav aria-label="주 메뉴"><button data-nav="practice" class="nav active">실기 연습</button><button data-nav="guide" class="nav">메뉴 도감 <span>20</span></button><button data-nav="notes" class="nav">내 학습 노트</button></nav>
+    <span class="edition">2026 EDITION</span>
+  </div></header>
+  <main id="main" tabindex="-1"></main>
+  <footer><span>중식 연습장 <span class="footer-dot">·</span> 한 번 더 연습하고, 조금 더 익숙하게.</span><button class="text-button" data-action="sources">학습 자료 안내 ↗</button></footer>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>이 연습장은 JavaScript가 필요합니다. 브라우저에서 JavaScript를 허용해 주세요.</noscript>
+</body>
+</html>
